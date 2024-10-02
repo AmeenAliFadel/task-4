@@ -143,6 +143,13 @@
         width: 10px;
         height: 10px;
     }
-
+    .hero
+    {
+        height: calc(100vh - 56px);
+    }
+    .slide-img
+    {
+        height: calc(100vh - 56px);
+    }
 
 }
