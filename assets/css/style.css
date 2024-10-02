@@ -31,6 +31,7 @@
     width: 75%;
     border-top: 4px solid var(--main-color);
 }
+
 .carousel-indicators [data-bs-target]
 {
     width: 20px;
@@ -52,7 +53,15 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
+.hero
+{
+    height: calc(100vh - 128px);
+}
+.slide-img
+{
+    height: calc(100vh - 128px);
+    object-fit: cover;
+}
 .icon i
 {
     font-size: 24px;
@@ -134,5 +143,6 @@
         width: 10px;
         height: 10px;
     }
+
 
 }
