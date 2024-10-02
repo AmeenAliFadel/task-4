@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root
+{
+    --main-color : #3fbabf;
+}
+.navbar1
+{
+    background-color: var(--main-color);
+}
+.logo
+{
+    width: 50%;
+}
+.btn1
+{
+    background-color: var(--main-color);
+}
+.btn1:hover{
+    background-color: var(--main-color);
+}
+.div-slider
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: fit-content;
+    width: 75%;
+    border-top: 4px solid var(--main-color);
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 20px;
+    height: 20px;
+
+}
+.carousel-indicators .active 
+{
+    background-color: var(--main-color);
+}
+.line
+{
+    width: 25px;
+    height: 2px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.icon i
+{
+    font-size: 24px;
+    color: var(--main-color);
+}
+.Hepatology
+{
+    color: var(--main-color);
+}
+.home,.phone,.mail
+{
+    width: 70px;
+    height: 70px;
+    border: 1px dashed var(--main-color);
+
+}
+.home i,.phone i,.mail i
+{
+    color: var(--main-color);
+    font-size: 24px;
+}
+.color
+{
+    color: var(--main-color);
+}
+
+
+.footer .info ul i {
+    width: 40px;
+    height: 40px;
+    color: gray;
+
+
+}
+.finish
+{
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+@media (max-width : 576px) {
+    .navbar1
+    {
+        display: none;
+    }
+    .navbar-brand
+    {
+        width: 150px;
+    }
+    .div-slider 
+    {
+        width: 50%;
+    }
+    .div-slider h5 
+    {
+        font-size: 16px;
+    }
+    .div-slider p 
+    {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .div-slider a
+    {
+        font-size: 0.5rem;
+        
+    }
+    .carousel-indicators
+    {
+        margin: 0;
+    }
+    .carousel-indicators [data-bs-target]
+    {
+        width: 10px;
+        height: 10px;
+    }
+
+}
