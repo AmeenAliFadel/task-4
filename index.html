@@ -267,36 +267,128 @@
                 </div>
             </div>
         </div>
-        <div class="Departments">
+        <div class="Departments py-3">
             <div class="container">
-                <div class=" d-flex justify-content-center align-items-center text-center flex-column">
-                    <h2 class="mt-4 text-uppercase">Departments</h2>
-                    <div class="line "></div>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, eligendi?</p>
-                </div>
-                <div class="row mt-5 mb-5">
-                    <div class="col-lg-3 col-md-12 col-sm-12 mt-3 ">
-                        <ul class="list-group border border-0 border-end">
-                            <li class="list-group-item border border-0 p-4">Cardiology</li>
-                            <li class="list-group-item border border-0 p-4">Neurology</li>
-                            <li class="list-group-item border border-0 p-4 Hepatology">Hepatology</li>
-                            <li class="list-group-item border border-0 p-4">Pediatrics</li>
-                            <li class="list-group-item border border-0 p-4">Ophthalmologists</li>
-                        </ul>
+                <div class="d-flex row align-items-start">
+                    <div class="nav col-lg-1 col-md-1 col-sm-1 nav-pills px-2 me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link mb-4  active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Cardiology</button>
+                        <button class="nav-link mb-4 " id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Neurology</button>
+                        <button class="nav-link mb-4 " id="v-pills-disabled-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled"
+                            aria-selected="false">Hepatology</button>
+                        <button class="nav-link mb-4 " id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">Pediatrics</button>
+                        <button class="nav-link mb-4 " id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">Ophthalmologists</button>
                     </div>
-                    <div class="col-lg-5 col-md-6 col-sm-12 mt-3">
-                        <h3>
-                            Hepatology
-                        </h3>
-                        <p>
-                            HepatologyHepatologyHepatology
-                        </p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius ipsam perferendis
-                            architecto
-                            tempora quasi dolorum quia nam sit accusamus!</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
-                        <img class="img-fluid" src="./assets/images/departments-3.jpg" alt="">
+                    <div class="tab-content col-lg-10 col-md-12 col-sm-12" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <div class="d-flex row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                                    <h2>
+                                        Cardiology
+                                    </h2>
+                                    <p>
+                                        CardiologyCardiologyCardiology
+                                    </p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius ipsam
+                                        perferendis
+                                        architecto
+                                        tempora quasi dolorum quia nam sit accusamus!</p>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                                    <img class="img-fluid" src="./assets/images/departments-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="d-flex row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                                    <h2>
+                                        Neurology
+                                    </h2>
+                                    <p>
+                                        NeurologyNeurologyNeurology
+                                    </p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius ipsam
+                                        perferendis
+                                        architecto
+                                        tempora quasi dolorum quia nam sit accusamus!</p>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <img class="img-fluid" src="./assets/images/departments-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel"
+                            aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                            <div class="d-flex row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                                    <h2>
+                                        Hepatology
+                                    </h2>
+                                    <p>
+                                        HepatologyHepatologyHepatology
+                                    </p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius ipsam
+                                        perferendis
+                                        architecto
+                                        tempora quasi dolorum quia nam sit accusamus!</p>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <img class="img-fluid" src="./assets/images/departments-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <div class="d-flex row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                                    <h2>
+                                        Pediatrics
+                                    </h2>
+                                    <p>
+                                        PediatricsPediatricsPediatrics
+                                    </p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius ipsam
+                                        perferendis
+                                        architecto
+                                        tempora quasi dolorum quia nam sit accusamus!</p>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <img class="img-fluid" src="./assets/images/departments-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <div class="d-flex row">
+                                <div class="col-lg-6 col-md-12 col-sm-12 text-center mt-5">
+                                    <h2>
+                                        Ophthalmologists
+                                    </h2>
+                                    <p>
+                                        OphthalmologistsOphthalmologistsOphthalmologists
+                                    </p>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eius ipsam
+                                        perferendis
+                                        architecto
+                                        tempora quasi dolorum quia nam sit accusamus!</p>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                    <img class="img-fluid" src="./assets/images/departments-5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -359,7 +451,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="contact">
             <div class=" d-flex justify-content-center align-items-center text-center flex-column">

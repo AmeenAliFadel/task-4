@@ -101,9 +101,15 @@
     color: var(--main-color);
 }
 
-
-
-
+.nav-pills .nav-link.active
+{
+    background-color: var(--main-color);
+    color: white;
+}
+.nav-pills .nav-link
+{
+    color: black;
+}
 
 
 
